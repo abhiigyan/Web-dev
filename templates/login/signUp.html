@@ -43,7 +43,14 @@
             <label for="re_enterpassword">Confirm Password</label>
             <input type="password" class="form-control" id="re_enterpassword" name="re_enterpassword" placeholder="Confirm Your Password" Required>
         </div>
-        <button type="submit" class="btn btn-primary">Sign Up</button>
+        <button type="submit" class="btn btn-primary"
+            
+            onclick="Redirect();">Sign Up</button>
     </form>
+
+    <script>
+        function Redirect() {
+               window.location = "index.html";
+    </script>
 </body>
 </html>
